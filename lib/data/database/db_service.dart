@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:flutter_note_app/data/database/note_dao.dart';
+import 'package:note_app/data/database/note_dao.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 

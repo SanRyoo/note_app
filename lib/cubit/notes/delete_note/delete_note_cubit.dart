@@ -1,9 +1,9 @@
 // ignore_for_file: depend_on_referenced_packages
 import 'package:bloc/bloc.dart';
-import 'package:flutter_note_app/core/repository/notes_repository.dart';
-import 'package:flutter_note_app/cubit/notes/delete_note/delete_note_state.dart';
-import 'package:flutter_note_app/di/locator.dart';
-import 'package:flutter_note_app/model/note.dart';
+import 'package:note_app/core/repository/notes_repository.dart';
+import 'package:note_app/cubit/notes/delete_note/delete_note_state.dart';
+import 'package:note_app/di/locator.dart';
+import 'package:note_app/model/note.dart';
 
 class DeleteNoteCubit extends Cubit<DeleteNoteState> {
   DeleteNoteCubit() : super(DeleteNoteInitialState());

@@ -1,11 +1,11 @@
 // ignore_for_file: must_be_immutable, no_logic_in_create_state
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_note_app/cubit/notes/insert_note/insert_note_cubit.dart';
-import 'package:flutter_note_app/cubit/notes/insert_note/insert_note_state.dart';
-import 'package:flutter_note_app/model/note.dart';
-import 'package:flutter_note_app/widgets/debounce_throttle.dart';
-import 'package:flutter_note_app/widgets/snack_bar.dart';
+import 'package:note_app/cubit/notes/insert_note/insert_note_cubit.dart';
+import 'package:note_app/cubit/notes/insert_note/insert_note_state.dart';
+import 'package:note_app/model/note.dart';
+import 'package:note_app/widgets/debounce_throttle.dart';
+import 'package:note_app/widgets/snack_bar.dart';
 import 'package:go_router/go_router.dart';
 
 class DetailScreen extends StatefulWidget {

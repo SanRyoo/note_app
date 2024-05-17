@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_note_app/model/note.dart';
-import 'package:flutter_note_app/screen/detail/detail_screen.dart';
-import 'package:flutter_note_app/screen/home/home_screen.dart';
+import 'package:note_app/model/note.dart';
+import 'package:note_app/screen/detail/detail_screen.dart';
+import 'package:note_app/screen/home/home_screen.dart';
 import 'package:go_router/go_router.dart';
 
 class RouterUri {

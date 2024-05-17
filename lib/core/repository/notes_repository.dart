@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
-import 'package:flutter_note_app/data/database/note_dao.dart';
-import 'package:flutter_note_app/model/note.dart';
+import 'package:note_app/data/database/note_dao.dart';
+import 'package:note_app/model/note.dart';
 
 abstract interface class NotesRepository {
   Future<List<NoteModel>> getAllNotes();

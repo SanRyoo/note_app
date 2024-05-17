@@ -1,14 +1,14 @@
 // ignore_for_file: use_build_context_synchronously
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_note_app/cubit/notes/delete_note/delete_note_cubit.dart';
-import 'package:flutter_note_app/cubit/notes/get_notes/get_notes_cubit.dart';
-import 'package:flutter_note_app/cubit/notes/get_notes/get_notes_state.dart';
-import 'package:flutter_note_app/cubit/notes/insert_note/insert_note_cubit.dart';
-import 'package:flutter_note_app/router/app_router.dart';
-import 'package:flutter_note_app/screen/home/widgets/note_item.dart';
-import 'package:flutter_note_app/widgets/debounce_throttle.dart';
-import 'package:flutter_note_app/widgets/snack_bar.dart';
+import 'package:note_app/cubit/notes/delete_note/delete_note_cubit.dart';
+import 'package:note_app/cubit/notes/get_notes/get_notes_cubit.dart';
+import 'package:note_app/cubit/notes/get_notes/get_notes_state.dart';
+import 'package:note_app/cubit/notes/insert_note/insert_note_cubit.dart';
+import 'package:note_app/router/app_router.dart';
+import 'package:note_app/screen/home/widgets/note_item.dart';
+import 'package:note_app/widgets/debounce_throttle.dart';
+import 'package:note_app/widgets/snack_bar.dart';
 import 'package:go_router/go_router.dart';
 
 class HomeScreen extends StatefulWidget {

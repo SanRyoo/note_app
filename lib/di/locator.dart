@@ -1,6 +1,6 @@
-import 'package:flutter_note_app/core/repository/notes_repository.dart';
-import 'package:flutter_note_app/data/database/db_service.dart';
-import 'package:flutter_note_app/data/database/note_dao.dart';
+import 'package:note_app/core/repository/notes_repository.dart';
+import 'package:note_app/data/database/db_service.dart';
+import 'package:note_app/data/database/note_dao.dart';
 import 'package:get_it/get_it.dart';
 
 GetIt sl = GetIt.instance;

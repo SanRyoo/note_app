@@ -1,4 +1,4 @@
-import 'package:flutter_note_app/model/note.dart';
+import 'package:note_app/model/note.dart';
 import 'package:sqflite/sqflite.dart';
 
 typedef NoteId = int;

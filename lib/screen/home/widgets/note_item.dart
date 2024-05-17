@@ -1,7 +1,7 @@
 // ignore_for_file: no_logic_in_create_state, must_be_immutable
 
 import 'package:flutter/material.dart';
-import 'package:flutter_note_app/model/note.dart';
+import 'package:note_app/model/note.dart';
 import 'package:intl/intl.dart';
 
 class NoteItem extends StatelessWidget {

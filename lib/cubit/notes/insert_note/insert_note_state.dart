@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors_in_immutables
 
 import 'package:equatable/equatable.dart';
-import 'package:flutter_note_app/data/database/note_dao.dart';
+import 'package:note_app/data/database/note_dao.dart';
 
 sealed class InsertUpdateNoteState extends Equatable {
   @override

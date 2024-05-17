@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors_in_immutables
 
 import 'package:equatable/equatable.dart';
-import 'package:flutter_note_app/model/note.dart';
+import 'package:note_app/model/note.dart';
 
 sealed class GetNotesState extends Equatable {
   @override
