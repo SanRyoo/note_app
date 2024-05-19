@@ -24,7 +24,6 @@ dependencies:
   get_it: ^7.7.0
   equatable: ^2.0.0
   flutter_bloc: ^8.1.5
-  debounce_throttle: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -32,6 +31,44 @@ dev_dependencies:
   flutter_lints: ^3.0.0
   json_serializable: ^6.8.0
   retrofit_generator: ">=7.0.0 <8.0.0"
+  flutter_gen_runner:
+  flutter_launcher_icons: "^0.13.1"
+  flutter_native_splash: ^2.4.0
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/images/ic_launcher.png"
+  ios: true
+  min_sdk_android: 21
+  remove_alpha_ios: false
+  adaptive_icon_background: "#ffffff"
+
+flutter_native_splash:
+  color: "#ffffff"
+  #background_image: "assets/background.png"
+  image: assets/images/ic_spash.png
+  #branding: assets/dart.png
+  #color_dark: "#042a49"
+  #background_image_dark: "assets/dark-background.png"
+  #image_dark: assets/splash-invert.png
+  #branding_dark: assets/dart_dark.png
+
+  android_12:
+    image: assets/images/ic_spash.png
+    color: "#ffffff"
+    icon_background_color: "#ffffff"
+    # branding: assets/dart.png
+    #image_dark: assets/android12splash-invert.png
+    #color_dark: "#042a49"
+    #icon_background_color_dark: "#eeeeee"
+
+  android: true
+  ios: true
+  web: false
+  fullscreen: true
